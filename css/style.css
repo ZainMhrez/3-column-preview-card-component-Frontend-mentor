@@ -27,11 +27,9 @@ body {
 
 /* Start Styling */
 .container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 .container .columns {
     width: 60%;
@@ -69,6 +67,7 @@ body {
     font-weight: 400;
     font-family: "Lexend Deca";
     cursor: pointer;
+    transition: 0.3s ease-in;
 }
 .container .columns .column button:hover {
     color: #fff;
